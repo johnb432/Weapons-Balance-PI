@@ -13,7 +13,7 @@
             - Added optic rail
             - Changed weight from 3.63kg to 3.18kg
         - Model 97:
-            - Added CBA Magwell for 1-7Rnds 12 Gauge shells
+            - Added CBA Magwell for 1-6Rnds 12 Gauge shells
             - Changed weight from 6.35kg to 3.63kg
         - Model 97 Carbine:
             - Added CBA Magwell for 1-5Rnds 12 Gauge shells
