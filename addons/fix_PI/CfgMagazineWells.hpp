@@ -26,6 +26,12 @@ class CfgMagazineWells {
         };
     };
 
+    class CBA_300WM_AICS {
+        WB_Magazines[] += {
+            "10Rnd_300WM_Magazine"
+        };
+    };
+
     class CBA_303B_LeeEn {
         WB_Magazines[] += {
             "10Rnd_303_Magazine"
@@ -42,6 +48,13 @@ class CfgMagazineWells {
     class CBA_762x39_AK {
         WB_Magazines[] += {
             "30Rnd_762x39_Magazine"
+        };
+    };
+
+    class MAR10_338 {
+        WB_Magazines[] += {
+            "5Rnd_338LM_Magazine",
+            "5Rnd_APDS_338LM_Magazine"
         };
     };
 };

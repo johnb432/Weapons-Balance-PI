@@ -1,3 +1,39 @@
+# Changelog for Weapons balance 29.12.2020
+
+- Added ACE barrel and ACE ammo stats
+- Renamed magazines to accurately fit their content
+
+- Weapon changes:
+    - PI:
+        - Mk.I No.4 variants:
+            - Changed name to "Lee-Enfield No.4 Mk.I"
+        - Mk.I No.4 Carbine:
+            - Changed name to "Lee-Enfield No.4 Mk.I Carbine"
+        - Model 97 Carbine:
+            - Changed name to "Model 97 (Short)"
+        - RK 95s:
+            - Changed names to "RK 95 TP"
+        - SPR220s:
+            - Changed name to "SPR 220"
+        - SPR220 (Sawed Off):
+            - Changed names to "SPR 220 (Sawn-off)"
+        - TRG 42/F & TRG 42/F MMRS:
+            - Added CBA Magwell for .338 mags
+
+- MagazineWells:
+    - CBA:
+        - .300WM AICS:
+            - Added 1x PI .300WM 10Rnd mag
+    - Vanilla:
+        - .338 MAR10:
+            - Added 2x PI .338WM 5Rnd mags
+
+- Weight balancing:
+    - PI:
+        - 1x .300WM 10Rnd mag from 0.36kg to 0.24kg
+        - 1x .303 Lee Enfield 10Rnd clip from 0.20kg to 0.26kg
+        - Both .338LM 5Rnd mags from 0.45kg to 0.32kg
+
 # Changelog for Weapons balance 20.10.2020
 
 - Weapon changes:
@@ -44,7 +80,7 @@
             - Added 2x PI 5Rnd
         - 12 Gauge, 6 Rnds:
             - Added 2x PI 6Rnd
-        - .300WM:
+        - .300WM AI:
             - Added 1x PI .300WM 10Rnd mag
         - .303 Lee Enfield:
             - Added 1x PI .303 10Rnd clip
