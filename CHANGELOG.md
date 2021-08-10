@@ -1,3 +1,11 @@
+TODO: Pistols
+
+# Changelog for Weapons balance 9.8.2021
+
+1.1.0.0
+- Added hemtt support
+- Added weapon attachments compatibility
+
 # Changelog for Weapons balance 29.12.2020
 
 - Added ACE barrel and ACE ammo stats

@@ -1,4 +1,3 @@
-class asdg_OpticRail1913_short;
 class asdg_OpticRail1913_long;
 
 class CfgWeapons {
@@ -9,23 +8,18 @@ class CfgWeapons {
     class Rifle_Long_Base_F: Rifle_Base_F {
         class WeaponSlotsInfo: WeaponSlotsInfo {};
     };
-    class bnae_falkor_base: Rifle_Long_Base_F { //https://falkordefense.com/petra/
+    class bnae_falkor_base: Rifle_Long_Base_F { // https://falkordefense.com/petra/
         ACE_barrelLength = 558.8;
         ACE_barrelTwist = 247.142;
         magazineWell[] += {"CBA_300WM_AI","CBA_300WM_AICS"};
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 103;
-            class asdg_OpticRail_falkor: asdg_OpticRail1913_long {};
-            /*
-            class asdg_MuzzleSlot_falkor: asdg_MuzzleSlot_338 {};
-            class MuzzleSlot: asdg_MuzzleSlot_338 {
-                compatibleItems[] = {};
-            };
-
-            class UnderBarrelSlot: UnderBarrelSlot {
-                compatibleItems[] = {};
-            };
-            */
+            delete CowsSlot;
+            delete MuzzleSlot;
+            delete UnderBarrelSlot;
+            class CowsSlot: asdg_OpticRail1913_long {};
+            class MuzzleSlot: asdg_MuzzleSlot_338 {};
+            class UnderBarrelSlot: asdg_UnderSlot {};
         };
     };
 
@@ -51,7 +45,8 @@ class CfgWeapons {
         displayName = "Lee-Enfield No.4 Mk.I Carbine";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 70;
-            class asdg_OpticRail_mk1_short: asdg_OpticRail1913 {};
+            delete CowsSlot;
+            class CowsSlot: asdg_OpticRail1913 {};
         };
     };
 
@@ -75,6 +70,8 @@ class CfgWeapons {
         magazineWell[] += {"CBA_762x39_AK","CBA_762x39_RPK"};
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 81.6;
+            delete MuzzleSlot;
+            class MuzzleSlot: asdg_MuzzleSlot_762 {};
         };
     };
     class bnae_rk95_virtual: bnae_rk95_base {
@@ -88,7 +85,8 @@ class CfgWeapons {
         displayName = "RK 95 TP (Rail)";
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 85.6;
-            class asdg_OpticRail_rk95r: asdg_OpticRail1913 {};
+            delete CowsSlot;
+            class CowsSlot: asdg_OpticRail1913 {};
         };
     };
     class bnae_rk95r_camo1_virtual: bnae_rk95r_virtual {
@@ -119,25 +117,31 @@ class CfgWeapons {
         displayName = "SPR 220 (Digital/Sawn-off)";
     };
 
-    //https://en.wikipedia.org/wiki/Sako_TRG
+    // https://en.wikipedia.org/wiki/Sako_TRG
     class bnae_trg42_base: Rifle_Long_Base_F {
         ACE_barrelLength = 690;
         ACE_barrelTwist = 254;
         magazineWell[] += {"CBA_338LM_AI","MAR10_338"};
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 115;
-            class asdg_OpticRail_trg42: asdg_OpticRail1913 {};
-            //class asdg_MuzzleSlot_trg42: asdg_MuzzleSlot_338 {};
+            delete CowsSlot;
+            delete MuzzleSlot;
+            class CowsSlot: asdg_OpticRail1913 {};
+            class MuzzleSlot: asdg_MuzzleSlot_338 {};
         };
     };
     class bnae_trg42_mmrs_virtual: bnae_trg42_base {
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            class asdg_OpticRail_trg42: asdg_OpticRail1913_long {};
+            delete UnderBarrelSlot;
+            class CowsSlot: asdg_OpticRail1913_long {};
+            class UnderBarrelSlot: asdg_UnderSlot {};
         };
     };
     class bnae_trg42_f_mmrs_virtual: bnae_trg42_base {
         class WeaponSlotsInfo: WeaponSlotsInfo {
-            class asdg_OpticRail_trg42: asdg_OpticRail1913_long {};
+            delete UnderBarrelSlot;
+            class CowsSlot: asdg_OpticRail1913_long {};
+            class UnderBarrelSlot: asdg_UnderSlot {};
         };
     };
 };

@@ -65,3 +65,28 @@ class asdg_MuzzleSlot_762: asdg_MuzzleSlot {
         bnae_suppressor_covdrt_virtual = 1;
     };
 };
+
+class UK3CB_MuzzleSlot_762_G3: asdg_MuzzleSlot {
+    class compatibleItems {
+        bnae_suppressor_v2_virtual = 1;
+        bnae_suppressor_covblk_virtual = 1;
+        bnae_suppressor_covdrt_virtual = 1;
+    };
+};
+
+class UK3CB_MuzzleSlot_762_M14: asdg_MuzzleSlot {
+    class compatibleItems {
+        bnae_suppressor_v2_virtual = 1;
+        bnae_suppressor_covblk_virtual = 1;
+        bnae_suppressor_covdrt_virtual = 1;
+    };
+};
+
+class MuzzleSlot;
+class MuzzleSlot_762: MuzzleSlot {
+    class compatibleItems {
+        bnae_suppressor_v2_virtual = 1;
+        bnae_suppressor_covblk_virtual = 1;
+        bnae_suppressor_covdrt_virtual = 1;
+    };
+};

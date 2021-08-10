@@ -1,9 +1,11 @@
+#include "script_component.hpp"
+
 class CfgPatches {
-    class WB_fix_PI {
-        name = "Weapons balance - Fix Project Infinite";
+    class ADDON {
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        requiredVersion = 1.96;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "bnae_attachments",
             "bnae_Colt_SAA",
