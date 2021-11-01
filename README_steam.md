@@ -5,6 +5,7 @@ This rebalancing balances items from Project Infinite:
 [*]Magazine weight balancing
 [*]Magazine compatibility
 [*]Weapon attachments compatibility
+[*]and further changes
 [/list]
 
 Visit the [url=https://github.com/johnb432/Weapons-Balance-PI]GitHub[/url] to get all the changed items.
