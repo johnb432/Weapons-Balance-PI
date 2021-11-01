@@ -1,5 +1,10 @@
 TODO: Pistols
 
+# Changelog for Weapons balance 1.11.2021
+
+1.1.0.1
+- Some background changes, nothing much content wise.
+
 # Changelog for Weapons balance 9.8.2021
 
 1.1.0.0
