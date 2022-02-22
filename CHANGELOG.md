@@ -1,4 +1,7 @@
-TODO: Pistols
+# Changelog for Weapons balance 22.2.2022
+
+1.1.0.2
+- Minor cleanup.
 
 # Changelog for Weapons balance 1.11.2021
 
