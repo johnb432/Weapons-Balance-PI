@@ -32,13 +32,13 @@ class CfgWeapons {
         };
     };
     class bnae_mk1_virtual: bnae_mk1_base {
-        displayName = "Lee-Enfield No.4 Mk.I"
+        displayName = "Lee-Enfield No.4 Mk.I";
     };
     class bnae_mk1_t_virtual: bnae_mk1_base {
         displayName = "Lee-Enfield No.4 Mk.I (T)";
     };
-    class bnae_mk1_t_camo1_virtual: bnae_mk1_base {
-        displayName = "Lee-Enfield No.4 Mk.I (Paint)"
+    class bnae_mk1_t_camo1_virtual: bnae_mk1_t_virtual {
+        displayName = "Lee-Enfield No.4 Mk.I (T) (Paint)";
     };
     class bnae_mk1_short_virtual: bnae_mk1_base {
         ACE_barrelLength = 320;
